@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Form</title>
+</head>
+<body>
+    <!-- Form Container -->
+    <form style="width: 100%; ">
+        <fieldset style="background-color: rgb(221, 156, 72); padding: 20px;">
+            <legend style="background-color: rgb(40, 178, 187); padding: 5px;">Personal Data</legend><br>
+
+            <!-- Nested Fieldset for Name -->
+            <fieldset style="background-color: rgb(40, 178, 187); padding: 15px;">
+                <legend style="background-color: rgb(184, 116, 28); padding: 5px;">Aya Elagamy</legend>
+
+                <!-- First & Second Name  -->
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><label for="fname">First Name</label></td>
+                            <td>:</td>
+                            <td><input type="text" name="fname" id="fname" placeholder="Ex aya"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="sname">Second Name</label></td>
+                            <td>:</td>
+                            <td><input type="text" name="sname" id="sname" placeholder="Ex Elagamy"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <br><br>
+
+            <!-- Other Input Fields -->
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label for="ph">Your Phone</label></td>
+                        <td>:</td>
+                        <td><input type="tel" name="phone" id="ph"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="em">Email</label></td>
+                        <td>:</td>
+                        <td><input type="email" name="email" id="em"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pass">Password</label></td>
+                        <td>:</td>
+                        <td><input type="password" name="pass" id="pass"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="re">Re-Password</label></td>
+                        <td>:</td>
+                        <td><input type="password" name="rePass" id="re"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br><br>
+
+            <!-- Radio Buttons -->
+            <input type="radio" id="m" name="gender" value="male">
+            <label for="m">Male</label><br>
+            <input type="radio" id="f" name="gender" value="female">
+            <label for="f">Female</label><br><br>
+
+            <!--  Checkboxes -->
+            <input type="checkbox" id="student" name="ageGroup" value="student">
+            <label for="student">Student</label><br>
+            <input type="checkbox" id="adult" name="ageGroup" value="adult">
+            <label for="adult">Graduated</label><br>
+            <br><br>
+
+            <!-- Dropdown List -->
+            <label>Languages:</label><br>
+            <select name="options" style="width: 200px;">
+                <optgroup label="Ai">
+                    <option value="1">Python</option>
+                </optgroup>
+                <optgroup label="Frontend">
+                    <option value="2">Html</option>
+                    <option value="3">Css</option>
+                </optgroup>
+                <optgroup label="Backend" disabled>
+                    <option value="4">C#</option>
+                    <option value="5">Node.js</option>
+                    <option value="6">PhP</option>
+                </optgroup>
+            </select>
+            <br><br>
+
+            <!-- Submit Button with Image -->
+            <button type="submit" style="background: none; border: none;">
+                <img src="supmit.png" alt="Submit" style="width: 100px;">
+            </button> <br><br>
+        </fieldset>
+    </form>
+</body>
+</html>
