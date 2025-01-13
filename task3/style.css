@@ -1,0 +1,37 @@
+
+#location{
+    width: 100%;
+    background-color: rgb(255, 254, 251);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* .text ,.img{
+    float: left;
+} */
+
+.img img{
+    width: 450px;
+}
+
+#backing{
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+    width: 100%;
+}
+.item{
+    width: 33%;
+    float: left;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+#all {
+    width: 90%; 
+    padding: 70px;
+    
+}
