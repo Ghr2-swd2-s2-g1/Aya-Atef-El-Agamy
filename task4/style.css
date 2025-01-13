@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: "Alegreya Sans";
+}
+
+
+/* nav */
+
+nav .nav { 
+    padding: 0px 60px;
+}
+
+nav .nav .navl {
+    float: left;
+    padding-top: 20px;
+}
+
+nav .nav .navr {
+    float: right;
+}
+
+nav .nav .navr ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav .navr ul li {
+    font-family: "Alegreya";
+    line-height: 70px;
+    font-size: 18px;
+    padding: 7px 15px;
+}
+nav .nav .navr ul li a{
+    text-decoration: none;
+}
+
+.active {
+    border-top: 3px solid #E0C690;
+}
+
+.item a:hover {
+    color:#E0C690;
+}
+
+
+
+
+/* home */
+
+.home{
+    background-image: url('img/home1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.home .contain{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 250PX;
+}
+
+.home .contain p {
+    font-size: 23px;
+    font-weight: 400;
+    width: 50%;
+    line-height:2;
+    margin: auto;
+}
+.home .contain  h1 {
+    font-family: "Alegreya";
+    font-size: 76px;
+    font-weight: 300;
+    margin-bottom: 15px;
+} 
+
+.home .contain .btn {
+    background-color: transparent;
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    padding: 18px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.home .contain .btn1 {
+    margin-right: 20px;
+    background-color: #8e7754;
+    color: #fff;
+}
+.home .contain .btn2{
+    color: #fff;
+    border: 2px solid #fff;
+}
+.home .contain .btn1:hover , .home .contain .btn2:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* about  */
+
+.about{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    padding: 80px ;
+}
+
+.about .text{
+    font-family: "Alegreya";
+    color: #8e7754;
+    font-size: 17px;
+    padding: 40px 10px 0 80px;
+}
+
+.about .text h2{
+    color: #303030;
+    font-size: 33px;
+    font-weight: 100;
+}
+
+.about .text p {
+    font-family: "Alegreya Sans";
+    color: #686868;
+    font-weight: 500;
+    line-height: 2;
+    margin: 25px 0;
+}
+
+.about .text ul i {
+    font-size: 23px;
+    width: 50px;
+    height: 30px;
+    border-radius: 100%;
+    color: #8e7754;
+    border: 1px solid #8e775446;
+    text-align: center;
+    padding-top: 10px;
+    margin: 5px;
+}
+
+.about .text ul span {
+    font-family: "Alegreya Sans";
+    color: #686868;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+/* location */
+
+.location{
+    width: 100%;
+    display: flex;
+    background-color: #F8F8F8;
+    justify-content: space-between;
+    padding: 100px 70px;
+
+}
+.location .text{
+    font-family: "Alegreya";
+    font-size: 17px;
+    color: #8e7754;
+    padding: 40px 85px 0 0px;
+}
+.location .text h2{
+    color: #303030;
+    font-size: 33px;
+    font-weight: 100;
+}
+
+.location .text p{
+    font-family: "Alegreya Sans";
+    color: #686868;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 2;
+    margin: 25px 0;
+}
+
+
+
+/* baking */
+
+.baking{
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 60px;
+}
+.baking .text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.baking .text h2{
+    font-family: "Alegreya";
+    color: #303030;
+    font-size: 30px;
+    font-weight: 400;
+}
+.baking .text p{
+    font-family: "Alegreya Sans";
+    color: #888888;
+    font-size: 17px;
+    line-height: 2;
+}
+.baking .items{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.baking .item h3 {
+    font-family: "Alegreya";
+    color: #303030;
+    font-size: 23px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.baking .item p {
+    font-family: "Alegreya Sans";
+    color: #888888;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 2;
+    margin: 15px 0;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+/* contact */
+.contact{
+    justify-content: space-around;
+    background-color: #f8f8f8;
+    display: flex;
+    width: 100%;
+    padding: 70px;
+}
+
+.contact .text h2 {
+    color: #303030;
+    font-size: 33px;
+    font-weight: 100;
+}
+
+.contact .text p {
+    font-family: "Alegreya Sans";
+    color: #686868;
+    font-size: 17px;
+    line-height: 2;
+    margin: 25px 0;
+}
+
+.contact .list i {
+    background-color: #8e7754;
+    text-align: center;
+    width: 35px;
+    height: 25px;
+    border-radius: 100%;
+    padding-top: 8px;
+    margin: 0 10px ;
+}
+
+.footer{
+    background-color: #403D38;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 70px;
+}
+
+.footer .item{
+    width: 22%;
+}
+
+.footer .item h3{
+    font-family: "Alegreya";
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.footer .item p {
+    font-family: "Alegreya Sans";
+    color: #888888;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: inline;
+}
+
+.footer .item li{
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.footer .item .line::after{
+    content: "";
+    position: absolute;
+    background-color: #8888882c;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+}
+
+.footer .item i{
+    color: #969696;
+    padding-right: 12px;
+}
+
+
+
+
+/* Second footer */
+.sec-footer {
+    width: 100%;
+    background-color: #353330;
+    text-align: center;
+    padding: 70px;
+    
+}
+
+.sec-footer  p {
+    color: #717273;
+    font-family: "Alegreya Sans";
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.sec-footer .social i {
+    background-color: #484540;
+    width: 40px;
+    height: 30px;
+    border-radius: 100%;
+    color: #8c8a86;
+    padding-top: 15px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.sec-footer  .social .fa-facebook-f:hover {
+    background-color: #0275d8;
+}
+
+.sec-footer  .social .fa-google-plus-g:hover {
+    background-color: #DD4B39;
+}
+
+.sec-footer  .social .fa-linkedin-in:hover {
+    background-color: #007BB5;
+}
+
+.sec-footer  .social .fa-twitter:hover {
+    background-color: #00ACED;
+}
